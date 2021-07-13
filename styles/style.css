@@ -9,10 +9,31 @@ body {
 }
 
 /* header style */
-header div {
+header, footer{
+  display: flex;
+  align-items: center;
   background-color: #562eff;
   height: 94px;
   width: 100%;
+  justify-content: center;
+  font-size: 14px;
+  color: white;
+ 
+}
+.header-container{
+  width: 930px;
+  display: flex;
+  justify-content: space-between;
+}
+.pages{
+  align-items: center;
+}
+.pages h3{
+  margin-right: 36px;
+}
+.pages img{
+  height: 51px;
+  width: 51px;
 }
 .logo{
   display: flex;
@@ -20,13 +41,20 @@ header div {
 }
 .logo img{
   height: 60px;
-  width: 48px;
+  width: 50px;
 }
 .logo span{
   font-size: 24px;
   color: white;
   margin-left: 15px;
 }
+.pages{
+  display: flex;
+  font-size: 16px;
+  color: white;
+  font-weight: 100; 
+}
+
 main {
   margin:28px 0;
   display: flex;
